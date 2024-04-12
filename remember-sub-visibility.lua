@@ -1,4 +1,4 @@
-local filepath = mp.command_native({"expand-path", "~~/sub_vis"})
+local filepath = mp.command_native({"expand-path", "~~/sub-vis"})
 
 local loadfile = io.open(filepath, "r")
 
